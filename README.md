@@ -10,7 +10,7 @@
   - [What’s New in Vue 3](https://www.youtube.com/watch?v=bwItFdPt-6M&t=456s) 🎬📃🎬  
     ![YouTubeEnglish](https://img.shields.io/badge/En%20Playlist-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
   - [What’s New in Vue 3 (Arabic)](https://www.youtube.com/playlist?list=PLtxOBbrOOPH4ro6EXTNHrIvmoNaOcPAwe) 🎬📃🎬  
-    ![YouTubeArabic](https://www.youtube.com/playlist?list=PLLXntwspGdhCrdh_7xqzz0s3sH4sWlEiQ)
+    ![YouTubeArabic](https://img.shields.io/badge/Ar%20Playlist-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 
 ## **State Management** 🧠
 
