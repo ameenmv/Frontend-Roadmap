@@ -78,7 +78,7 @@ Vue is a popular library for building user interfaces.
 📚 **Explore these resources:**
 
 - [Vue Docs 📖](https://vuejs.org/tutorial/#step-1)
-- [React for Beginners 🎬📃](https://www.youtube.com/watch?v=YrxBCBibVo0)  
+- [Vue for Beginners 🎬📃](https://www.youtube.com/watch?v=YrxBCBibVo0)  
   ![YouTubeEnglish Playlist](https://img.shields.io/badge/En%20Playlist-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 - [Vue for Beginners (Arabic) 🎬📃](https://www.youtube.com/playlist?list=PLDoPjvoNmBAxr5AqK3Yz4DWYKVSmIFziw)  
   ![YouTubeArabic Playlist](https://img.shields.io/badge/Ar%20Playlist-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
