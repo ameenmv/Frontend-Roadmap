@@ -399,7 +399,7 @@ Server-side rendering (SSR) is the ability of an application to contribute by di
 
 # **What’s Next?**
 
----
+
 
 ### [Are You ready to start learning React?](./React.md)
 
@@ -407,7 +407,7 @@ Server-side rendering (SSR) is the ability of an application to contribute by di
 
 ### [Are You ready to start learning Vue?](./Vue.md)
 
----
+
 <br />
 
 <h2 align="center" style="color: #4CAF50; font-family: 'Arial', sans-serif; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); letter-spacing: 1px;">
