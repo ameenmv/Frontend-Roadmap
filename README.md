@@ -239,22 +239,18 @@ Digital accessibility is about designing websites that everyone, including peopl
   > - [**[Arabic] HTML, CSS, JavaScript Tutorials - Memory Game**](https://youtu.be/KRj4DFBTBkA)
   > - [**[Arabic] HTML, CSS, JavaScript Tutorials - Create Hangman Game**](https://youtu.be/ZFb_eaYtWwY)
   > - [**[Arabic] HTML, CSS, JavaScript Tutorials - Fetch GitHub Repositories With Fetch API**](https://youtu.be/uCKCSO8vkiU)
-  > - [**[Arabic] HTML, CSS, JavaScript Tutorials - Create Quiz Application**](https://youtu.be/T5QyLcmcMJ4)
-  >   <br />
+  > - [**[Arabic] HTML, CSS, JavaScript Tutorials - Create Quiz Application**](https://youtu.be/T5QyLcmcMJ4) > <br />
 - **Unique coders** [here](https://www.youtube.com/@UniqueCoderzAcademy)
   > - [**JavaScript Projects مشاريع وتطبيقات جافاسكربت**](https://youtube.com/playlist?list=PLtFbQRDJ11kGlRWp8MFhqlbO3ZmxIa3RE)
   > - [**JS Project 2 [ Recipe App ]**](https://youtube.com/playlist?list=PLtFbQRDJ11kEMjSzhHKMdcIuLiIywYWjH)
   > - [**مشروع ادارة منتجات كامل بالجافاسكريبت | Full product management system crud with javascript**](https://youtu.be/nJZAvdUhUMs)
-  > - [**E-commerce ( Shopping Cart ) - Pure Javascript**](https://youtube.com/playlist?list=PLtFbQRDJ11kHCgyFid3khHdOk0VEHiJ3e) [Big Project]
-  >   <br />
+  > - [**E-commerce ( Shopping Cart ) - Pure Javascript**](https://youtube.com/playlist?list=PLtFbQRDJ11kHCgyFid3khHdOk0VEHiJ3e) [Big Project] > <br />
 - **Traversy Media**
   > - [**Build 5 Projects With HTML, CSS & JavaScript**](https://youtu.be/JkeyKeK3V24)
-  > - [**Build a Netflix Landing Page Clone with HTML, CSS & JS**](https://youtu.be/P7t13SGytRk)
-  >   <br />
+  > - [**Build a Netflix Landing Page Clone with HTML, CSS & JS**](https://youtu.be/P7t13SGytRk) > <br />
 - **Lama Dev** [here](https://youtube.com/playlist?list=PLj-4DlPRT48lRNB0OYsK1WDCCryF1TQTN)
   > - [**Create a Movie Website in 90 min. HTML & CSS & Javascript**](https://youtu.be/AOlkcLtyXkw)
-  > - [**HTML CSS Javascript E-commerce Website**](https://youtu.be/b3Gqq_k-g24)
-  >   <br/>
+  > - [**HTML CSS Javascript E-commerce Website**](https://youtu.be/b3Gqq_k-g24) > <br/>
 
 ---
 
@@ -405,19 +401,19 @@ Server-side rendering (SSR) is the ability of an application to contribute by di
 
 ---
 
-<h2 align="center" style="color: #61DBFB; font-family: Arial; font-weight: bold;">
-  Are You ready to start learning React?
-</h2>
-
-<p align="center">
   <a href="./React.md" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/ابدأ%20تعلم%20React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Learn React Badge">
+    <h2 align="center" style=" font-family: Arial; font-weight: bold;">
+      Are You ready to start learning React?
+    </h2>
   </a>
-</p>
 
-<p align="center">
-   <a href="./Vue.md">Are you ready to start learning Vue?</a>
-</p>
+--
+
+<a href="./Vue.md" style="text-decoration: none;">
+    <h2 align="center" style=" font-family: Arial; font-weight: bold;">
+      Are You ready to start learning Vue?
+    </h2>
+</a>
 
 <br />
 
