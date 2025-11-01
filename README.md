@@ -1,7 +1,7 @@
 <h1 align="center">CIS Frontend Roadmap: Developer Learning Path</h1>
 
 This is a curated roadmap to becoming a professional Front-end Developer that anyone could use to learn about the practice of front-end development.
-
+ 
 <br/>
 
 ## 1. Basics
