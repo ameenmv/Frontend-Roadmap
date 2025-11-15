@@ -1,4 +1,4 @@
-# Frontend Development Roadmap
+# Frontend Development Roadmap 
 
 > A comprehensive, structured path to becoming a professional frontend developer. From fundamentals to advanced frameworks.
 
