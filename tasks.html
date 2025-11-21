@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Tasks | Student Activity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-primary: #2d3748;
+            --text-secondary: #4a5568;
+            --accent-beginner: #38b2ac; /* Teal */
+            --accent-inter: #4299e1;    /* Blue */
+            --accent-react: #61dafb;    /* React Blue */
+            --accent-vue: #42b883;      /* Vue Green */
+            --hover-color: #edf2f7;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-top: 30px;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #1a202c;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        /* Card Style */
+        .level-section {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            opacity: 0; /* For animation */
+            transform: translateY(20px); /* For animation */
+            animation: fadeInUp 0.6s ease-out forwards;
+            border-left: 5px solid transparent;
+        }
+
+        /* Level Specific Border Colors */
+        .beginner { border-left-color: var(--accent-beginner); animation-delay: 0.1s; }
+        .intermediate { border-left-color: var(--accent-inter); animation-delay: 0.2s; }
+        .advanced-react { border-left-color: #3182ce; animation-delay: 0.3s; }
+        .advanced-vue { border-left-color: var(--accent-vue); animation-delay: 0.3s; }
+
+        .level-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Question List */
+        ol {
+            list-style: none;
+            counter-reset: task-counter;
+        }
+
+        li {
+            position: relative;
+            padding: 12px 15px 12px 45px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        li::before {
+            counter-increment: task-counter;
+            content: counter(task-counter);
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #e2e8f0;
+            color: #4a5568;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        /* Hover Effects - The "Moves" */
+        li:hover {
+            background-color: var(--hover-color);
+            transform: translateX(5px);
+            color: var(--text-primary);
+        }
+
+        li:hover::before {
+            background-color: var(--text-primary);
+            color: white;
+        }
+
+        /* Task Highlight Box */
+        .coding-task {
+            background-color: #ebf8ff;
+            border: 1px dashed #4299e1;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 0.95rem;
+        }
+        
+        .coding-task strong {
+            color: #2b6cb0;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #a0aec0;
+            font-size: 0.9rem;
+            padding-bottom: 20px;
+        }
+
+        /* Keyframes Animations */
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+            .level-section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Frontend Development Tasks</h1>
+            <p>Challenge yourself from Beginner to Advanced</p>
+        </header>
+
+        <section class="level-section beginner">
+            <h2 class="level-title" style="color: var(--accent-beginner)">Beginner Level</h2>
+            <ol>
+                <li>What are the differences between inline, block, and inline-block elements in HTML?</li>
+                <li>How do you center an element horizontally and vertically in CSS?</li>
+                <li>What is the difference between class and id selectors in HTML and CSS?</li>
+                <li>What are the different form elements in HTML?</li>
+                <li>What is the difference between id and class in HTML?</li>
+                <li>How do you include an image in a web page?</li>
+                <li>How to include an external CSS file in HTML?</li>
+                <li>How can you apply different styles to a single HTML element?</li>
+                <div class="coding-task">
+                    <strong>🎨 Final Task:</strong>
+                    Create a simple card component using HTML and CSS. The card should contain an image at the top, followed by a title and a short description. Style it to look visually appealing.
+                </div>
+            </ol>
+        </section>
+
+        <section class="level-section intermediate">
+            <h2 class="level-title" style="color: var(--accent-inter)">Intermediate Level</h2>
+            <ol>
+                <li>Explain the differences between == and === in JavaScript. Why is it usually better to use ===?</li>
+                <li>Describe how event delegation works in JavaScript. When would you use it in your code?</li>
+                <li>When to use CSS Grid and CSS Flex?</li>
+                <li>What is the difference between var, let, and const in JavaScript?</li>
+                <li>What does position: absolute do in CSS? How is it different from position: relative?</li>
+                <li>How can you loop through an array in JavaScript?</li>
+                <li>How to manipulate DOM with JavaScript?</li>
+                <li>What are pseudo-elements and pseudo-classes in CSS?</li>
+                <li>Explain CSS variables and how they work?</li>
+                <li>Write JavaScript code to toggle between light and dark themes when a button is clicked.</li>
+                <div class="coding-task">
+                    <strong>🧠 Coding Question:</strong>
+                    Write a JS function to flip a number in an optimal time. You can write more than one solution.
+                </div>
+            </ol>
+        </section>
+
+        <section class="level-section advanced-react">
+            <h2 class="level-title" style="color: #3182ce">Advanced Track (React.js)</h2>
+            <ol>
+                <li>Explain the difference between props and state in React.</li>
+                <li>What is the Virtual DOM in React, and how does it improve performance?</li>
+                <li>Describe the purpose of React hooks, specifically useState and useEffect. How do they replace class components?</li>
+                <li>What are closures in JavaScript, and how do they work?</li>
+                <li>What is the difference between a controlled and an uncontrolled component in React?</li>
+                <li>What is the difference between map and forEach?</li>
+                <li>Explain the concept of event listeners in JavaScript.</li>
+                <li>How does 'this' work in JavaScript, and how does it change in arrow functions?</li>
+                <li>How can you conditionally render elements in React?</li>
+                <div class="coding-task">
+                    <strong>⚛️ React Task:</strong>
+                    Create a simple React app that displays a list of items. Allow the user to add a new item to the list and style the list items using CSS Grid.
+                </div>
+            </ol>
+        </section>
+
+        <section class="level-section advanced-vue">
+            <h2 class="level-title" style="color: var(--accent-vue)">Advanced Track (Vue.js)</h2>
+            <ol>
+                <li>Explain the difference between props and state (reactive data) in Vue.</li>
+                <li>What is the Virtual DOM in Vue, and how does it improve performance?</li>
+                <li>Describe the purpose of <code>ref</code> and <code>reactive</code> in Vue. How do they handle reactivity?</li>
+                <li>What is the difference between v-if and v-show?</li>
+                <li>How does two-way binding work in Vue using v-model?</li>
+                <li>How can you loop through an array in Vue using v-for?</li>
+                <li>What are computed properties? When should you use them instead of methods?</li>
+                <li>How can you conditionally render elements in Vue?</li>
+                <li>How do you pass data from a parent component to a child component in Vue?</li>
+                <div class="coding-task">
+                    <strong>💚 Vue Task:</strong>
+                    Create a simple Vue app that displays a list of items. Allow the user to add a new item to the list and style the list items using CSS Grid.
+                </div>
+            </ol>
+        </section>
+
+        <footer>
+            <p>Made for Future Frontend Developers 🚀</p>
+        </footer>
+    </div>
+
+</body>
+</html>
